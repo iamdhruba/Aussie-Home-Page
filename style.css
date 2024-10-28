@@ -167,7 +167,6 @@ html, body {
 }
 
 
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .navelements {
         flex-direction: column;
@@ -180,7 +179,7 @@ html, body {
     }
 
     .mainpage-content {
-        grid-template-columns: 1fr; /* Single column on smaller screens */
+        grid-template-columns: 1fr; 
     }
 
     .firstsection .heading h1 {
@@ -192,18 +191,18 @@ html, body {
     }
 
     .firstsection .buttons {
-        flex-direction: column; /* Stack buttons on smaller screens */
+        flex-direction: column;
     }
 
     .firstsection .buttons button {
         margin: 10px;
-        width: 100%; /* Full width buttons */
+        width: 100%; 
     }
 }
 
 @media (max-width: 480px) {
     .navelements img {
-        width: 150px; /* Smaller logo on very small screens */
+        width: 150px; 
     }
 
     .firstsection .heading h1 {
